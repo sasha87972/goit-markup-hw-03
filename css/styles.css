@@ -141,7 +141,7 @@ img {
   background-color: var(--dark-bgd);
 }
 .hero .container {
-  padding: 106px;
+  padding: 106px 0;
   text-align: center;
 }
 
