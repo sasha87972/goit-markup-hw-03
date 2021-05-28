@@ -190,6 +190,9 @@ img {
   margin-top: 10px;
 }
 /* Чем занимаемся */
+.working {
+  padding-top: 0;
+}
 .img-list {
   display: flex;
   justify-content: space-between;
