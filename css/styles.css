@@ -20,14 +20,14 @@
   letter-spacing: 0.03em;
 }
 /* Общие стили */
+.section {
+  padding: 94px 0 0 0;
+  width: 100%;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.section {
-  padding: 94px 0;
-  width: 100%;
 }
 
 .links a {
@@ -140,7 +140,6 @@ img {
 
 .hero {
   background-color: var(--dark-bgd);
-  width: 100%;
 }
 .hero .container {
   padding: 106px 0;
