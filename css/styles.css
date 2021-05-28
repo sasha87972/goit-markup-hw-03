@@ -22,10 +22,9 @@
 /* Общие стили */
 .section {
   padding: 94px 0 0 0;
-  width: 100%;
 }
 .container {
-  min-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -138,7 +137,7 @@ img {
 
 /* основное содержание */
 
-.hero {
+.section .hero {
   background-color: var(--dark-bgd);
 }
 .hero .container {
