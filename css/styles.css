@@ -21,6 +21,7 @@
 }
 /* Общие стили */
 .section {
+  min-width: 1200px;
   padding: 94px 0;
 }
 .container {
@@ -28,7 +29,6 @@
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .links a {
   text-decoration: none;
   margin: 0;
