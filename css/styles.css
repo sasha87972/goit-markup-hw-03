@@ -21,7 +21,6 @@
 }
 /* Общие стили */
 .section {
-  min-width: 1200px;
   padding: 94px 0;
 }
 .container {
@@ -39,6 +38,7 @@
   line-height: 1.7;
   text-align: center;
   color: var(--black-text);
+  margin-bottom: 50px;
 }
 .title {
   font-weight: 500;
@@ -47,6 +47,19 @@
   text-align: center;
   color: var(--black-text);
   text-align: left;
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 ul,
 h1,
@@ -138,9 +151,10 @@ img {
 /* основное содержание */
 .hero {
   background-color: var(--dark-bgd);
+  width: 1600px;
+  padding: 200px 0;
 }
 .hero .container {
-  padding: 106px 0;
   text-align: center;
 }
 
@@ -175,6 +189,9 @@ img {
   background-color: var(--btn-hover);
 }
 /* о нас */
+.about-us {
+  padding: 94px 0 0 0;
+}
 .about {
   display: flex;
   justify-content: space-between;
@@ -190,9 +207,6 @@ img {
   margin-top: 10px;
 }
 /* Чем занимаемся */
-.working {
-  padding-top: 0;
-}
 .img-list {
   display: flex;
   justify-content: space-between;
@@ -206,20 +220,21 @@ img {
 .team {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  padding-bottom: 30px;
 }
 .team li {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-text);
 }
-.team h3 {
+.team-desc {
+  padding: 30px 0;
+}
+.team-desc h3 {
   text-align: center;
-  margin: 30px 0 10px 0;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.19;
+  padding-top: 10px;
   text-align: center;
 }
 /* подвал */
@@ -251,9 +266,7 @@ a.transp {
 }
 
 /* портфолио */
-.portfolio .main-title {
-  visibility: hidden;
-}
+
 .filter {
   display: flex;
   justify-content: center;
