@@ -82,7 +82,7 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-head);
 }
 .header a {
   display: inline-block;
@@ -303,11 +303,12 @@ a.transp {
   flex-basis: calc(100% / 3 - var(--project-gap));
   margin-left: var(--project-gap);
   margin-top: var(--project-gap);
-  border-bottom: 1px solid var(--border-proj);
 }
 .project-desc {
   padding: 20px 24px;
   text-align: left;
+  border: 1px solid var(--border-proj);
+  border-top: 0;
 }
 .project-title {
   font-weight: bold;
